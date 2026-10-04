@@ -1,0 +1,864 @@
+﻿<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hager Hassan Marzouk | Front-End Developer</title>
+  <meta name="description" content="Hager Hassan Marzouk is a Front-End Developer specializing in React through DEPI. Portfolio for Startups, Personal Brands, and Companies.">
+  
+  <!-- Google Fonts: Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       Sticky Navigation Bar
+       ========================================================================== -->
+  <header class="site-header" id="header">
+    <div class="container nav-container">
+      <a href="#home" class="brand-logo" aria-label="Hager Hassan Marzouk Home">
+        <span class="brand-badge">H</span>
+        <span class="brand-name">Hager Hassan Marzouk</span>
+      </a>
+
+      <!-- Desktop Navigation Links (Strictly No Experience Item) -->
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About Me</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#training" class="nav-link">Training &amp; Learning</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Actions: Theme Toggle & Mobile Menu -->
+      <div class="nav-actions">
+        <button type="button" id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle dark/light theme">
+          <!-- Sun Icon (Light Mode) -->
+          <svg class="theme-icon-sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="4"></circle>
+            <path d="M12 2v2"></path>
+            <path d="M12 20v2"></path>
+            <path d="m4.93 4.93 1.41 1.41"></path>
+            <path d="m17.66 17.66 1.41 1.41"></path>
+            <path d="M2 12h2"></path>
+            <path d="M20 12h2"></path>
+            <path d="m6.34 17.66-1.41 1.41"></path>
+            <path d="m19.07 4.93-1.41 1.41"></path>
+          </svg>
+          <!-- Moon Icon (Dark Mode) -->
+          <svg class="theme-icon-moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+          </svg>
+        </button>
+
+        <button type="button" id="mobile-toggle" class="mobile-toggle-btn" aria-label="Open navigation menu" aria-expanded="false">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="4" x2="20" y1="12" y2="12"></line>
+            <line x1="4" x2="20" y1="6" y2="6"></line>
+            <line x1="4" x2="20" y1="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-nav-drawer" id="mobile-drawer">
+    <a href="#home" class="mobile-nav-link active">Home</a>
+    <a href="#about" class="mobile-nav-link">About Me</a>
+    <a href="#services" class="mobile-nav-link">Services</a>
+    <a href="#skills" class="mobile-nav-link">Skills</a>
+    <a href="#training" class="mobile-nav-link">Training &amp; Learning</a>
+    <a href="#projects" class="mobile-nav-link">Projects</a>
+    <a href="#contact" class="mobile-nav-link">Contact</a>
+  </div>
+
+  <main>
+    <!-- ==========================================================================
+         1. Home / Hero Section
+         ========================================================================== -->
+    <section class="section hero-section" id="home">
+      <div class="hero-glow"></div>
+      <div class="container">
+        <div class="hero-grid">
+          
+          <!-- Hero Intro Content -->
+          <div class="hero-content">
+            <div class="hero-badge">
+              <span class="status-dot"></span>
+              <span>Available for Freelance Projects</span>
+            </div>
+
+            <h1 class="hero-name">Hager Hassan Marzouk</h1>
+            <h2 class="hero-role">Front-End Developer</h2>
+
+            <p class="hero-intro">
+              Front-End Developer specializing in React through DEPI. Dedicated to building modern, responsive, and high-performance web applications tailored for Startups, Personal Brands, and Companies.
+            </p>
+
+            <div class="hero-cta-group">
+              <a href="#contact" class="btn btn-primary">
+                <span>Let's Work Together</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M5 12h14"></path>
+                  <path d="m12 5 7 7-7 7"></path>
+                </svg>
+              </a>
+              <a href="#projects" class="btn btn-secondary">
+                <span>View Projects</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Hero Visual: Real Uploaded Photo -->
+          <div class="hero-visual">
+            <div class="photo-wrapper">
+              <div class="photo-glow-ring"></div>
+              <div class="photo-card">
+                <img 
+                  src="assets/images/profile.jpg" 
+                  alt="Hager Hassan Marzouk - Front-End Developer" 
+                  class="profile-img"
+                  loading="eager"
+                >
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Personal Information Box / Card -->
+        <div class="personal-info-card">
+          <div class="info-card-header">
+            <div class="info-card-title">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
+                <circle cx="12" cy="7" r="4"></circle>
+              </svg>
+              <span>Personal Information</span>
+            </div>
+          </div>
+
+          <div class="info-grid">
+            <!-- Name -->
+            <div class="info-item">
+              <div class="info-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="12" cy="7" r="4"></circle>
+                </svg>
+              </div>
+              <div class="info-details">
+                <span class="info-label">Name</span>
+                <span class="info-value">Hager Hassan Marzouk</span>
+              </div>
+            </div>
+
+            <!-- Role -->
+            <div class="info-item">
+              <div class="info-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <div class="info-details">
+                <span class="info-label">Role</span>
+                <span class="info-value">Front-End Developer</span>
+              </div>
+            </div>
+
+            <!-- Email -->
+            <div class="info-item">
+              <div class="info-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                  <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                </svg>
+              </div>
+              <div class="info-details">
+                <span class="info-label">Email</span>
+                <span class="info-value">
+                  <a href="mailto:hajrhsnmrzwq233@gmail.com" title="Send email">hajrhsnmrzwq233@gmail.com</a>
+                </span>
+              </div>
+            </div>
+
+            <!-- LinkedIn -->
+            <div class="info-item">
+              <div class="info-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                  <rect width="4" height="12" x="2" y="9"></rect>
+                  <circle cx="4" cy="4" r="2"></circle>
+                </svg>
+              </div>
+              <div class="info-details">
+                <span class="info-label">LinkedIn</span>
+                <span class="info-value">
+                  <a href="https://www.linkedin.com/in/hagar-hassan-marzouk-front-end" target="_blank" rel="noopener noreferrer" title="Open LinkedIn profile">
+                    hagar-hassan-marzouk-front-end
+                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M7 17 17 7"></path>
+                      <path d="M7 7h10v10"></path>
+                    </svg>
+                  </a>
+                </span>
+              </div>
+            </div>
+
+            <!-- GitHub -->
+            <div class="info-item">
+              <div class="info-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+                  <path d="M9 18c-4.51 2-5-2-7-2"></path>
+                </svg>
+              </div>
+              <div class="info-details">
+                <span class="info-label">GitHub</span>
+                <span class="info-value">
+                  <a href="https://github.com/hagarhasan" target="_blank" rel="noopener noreferrer" title="Open GitHub profile">
+                    github.com/hagarhasan
+                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M7 17 17 7"></path>
+                      <path d="M7 7h10v10"></path>
+                    </svg>
+                  </a>
+                </span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         2. About Me Section
+         ========================================================================== -->
+    <section class="section section-alt" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">About Me</span>
+          <h2 class="section-title">Front-End Developer Specializing in React</h2>
+          <p class="section-description">
+            Dedicated to creating clean, interactive, and high-impact web interfaces with modern frontend technologies.
+          </p>
+        </div>
+
+        <div class="about-card">
+          <p class="about-narrative">
+            Hager Hassan Marzouk is a Front-End Developer specializing in React through DEPI.
+          </p>
+
+          <div class="about-clients-container">
+            <h3 class="about-clients-heading">Target Clients</h3>
+            
+            <div class="target-clients-grid">
+              <!-- Startups -->
+              <div class="client-card">
+                <div class="client-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"></path>
+                  </svg>
+                </div>
+                <h4 class="client-title">Startups</h4>
+              </div>
+
+              <!-- Personal Brands -->
+              <div class="client-card">
+                <div class="client-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                    <circle cx="9" cy="7" r="4"></circle>
+                    <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                  </svg>
+                </div>
+                <h4 class="client-title">Personal Brands</h4>
+              </div>
+
+              <!-- Companies -->
+              <div class="client-card">
+                <div class="client-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect width="16" height="20" x="4" y="2" rx="2" ry="2"></rect>
+                    <path d="M9 22v-4h6v4"></path>
+                    <path d="M8 6h.01"></path>
+                    <path d="M16 6h.01"></path>
+                    <path d="M8 10h.01"></path>
+                    <path d="M16 10h.01"></path>
+                    <path d="M8 14h.01"></path>
+                    <path d="M16 14h.01"></path>
+                  </svg>
+                </div>
+                <h4 class="client-title">Companies</h4>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         3. Services Section
+         ========================================================================== -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Services</span>
+          <h2 class="section-title">What I Offer</h2>
+          <p class="section-description">
+            Professional freelance front-end services designed to help you build elegant and scalable web products.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Service 1: Website Development -->
+          <div class="service-card">
+            <div class="service-icon-box">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect width="20" height="14" x="2" y="3" rx="2"></rect>
+                <line x1="8" x2="16" y1="21" y2="21"></line>
+                <line x1="12" x2="12" y1="17" y2="21"></line>
+              </svg>
+            </div>
+            <span class="service-number">Service 01</span>
+            <h3 class="service-title">Website Development</h3>
+          </div>
+
+          <!-- Service 2: Responsive Web Design -->
+          <div class="service-card">
+            <div class="service-icon-box">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect width="18" height="18" x="3" y="3" rx="2"></rect>
+                <path d="M7 3v18"></path>
+                <path d="M3 7.5h4"></path>
+                <path d="M3 12h18"></path>
+              </svg>
+            </div>
+            <span class="service-number">Service 02</span>
+            <h3 class="service-title">Responsive Web Design</h3>
+          </div>
+
+          <!-- Service 3: React Development -->
+          <div class="service-card">
+            <div class="service-icon-box">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="2"></circle>
+                <ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(30 12 12)"></ellipse>
+                <ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(90 12 12)"></ellipse>
+                <ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(150 12 12)"></ellipse>
+              </svg>
+            </div>
+            <span class="service-number">Service 03</span>
+            <h3 class="service-title">React Development</h3>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         4. Technical Skills Section
+         ========================================================================== -->
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Technical Skills</span>
+          <h2 class="section-title">Core Technologies</h2>
+          <p class="section-description">
+            Clean, modern tools and languages used to craft performant and maintainable web applications.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- HTML -->
+          <div class="skill-card">
+            <div class="skill-icon-wrapper">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="16 18 22 12 16 6"></polyline>
+                <polyline points="8 6 2 12 8 18"></polyline>
+              </svg>
+            </div>
+            <div class="skill-info">
+              <h3 class="skill-name">HTML</h3>
+              <span class="skill-tag">Markup &amp; Semantics</span>
+            </div>
+          </div>
+
+          <!-- CSS -->
+          <div class="skill-card">
+            <div class="skill-icon-wrapper">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path>
+              </svg>
+            </div>
+            <div class="skill-info">
+              <h3 class="skill-name">CSS</h3>
+              <span class="skill-tag">Styling &amp; Layout</span>
+            </div>
+          </div>
+
+          <!-- JavaScript -->
+          <div class="skill-card">
+            <div class="skill-icon-wrapper">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20 6 9 17l-5-5"></path>
+              </svg>
+            </div>
+            <div class="skill-info">
+              <h3 class="skill-name">JavaScript</h3>
+              <span class="skill-tag">Dynamic Logic &amp; ES6+</span>
+            </div>
+          </div>
+
+          <!-- React -->
+          <div class="skill-card">
+            <div class="skill-icon-wrapper">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="2"></circle>
+                <ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(30 12 12)"></ellipse>
+                <ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(90 12 12)"></ellipse>
+                <ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(150 12 12)"></ellipse>
+              </svg>
+            </div>
+            <div class="skill-info">
+              <h3 class="skill-name">React</h3>
+              <span class="skill-tag">Frontend Library (DEPI)</span>
+            </div>
+          </div>
+
+          <!-- Bootstrap -->
+          <div class="skill-card">
+            <div class="skill-icon-wrapper">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect width="18" height="18" x="3" y="3" rx="2"></rect>
+                <path d="M7 8h4a2 2 0 0 1 2 2v0a2 2 0 0 1-2 2H7"></path>
+                <path d="M7 12h5a2 2 0 0 1 2 2v0a2 2 0 0 1-2 2H7"></path>
+              </svg>
+            </div>
+            <div class="skill-info">
+              <h3 class="skill-name">Bootstrap</h3>
+              <span class="skill-tag">Responsive Framework</span>
+            </div>
+          </div>
+
+          <!-- Git & GitHub -->
+          <div class="skill-card">
+            <div class="skill-icon-wrapper">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+                <path d="M9 18c-4.51 2-5-2-7-2"></path>
+              </svg>
+            </div>
+            <div class="skill-info">
+              <h3 class="skill-name">Git &amp; GitHub</h3>
+              <span class="skill-tag">Version Control &amp; Collaboration</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         5. Training & Learning Section (Strictly Separate from Work Experience)
+         ========================================================================== -->
+    <section class="section" id="training">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Training &amp; Learning</span>
+          <h2 class="section-title">Continuous Learning &amp; Technical Programs</h2>
+          <p class="section-description">
+            Specialized technical tracks, certifications, and developer training programs completed.
+          </p>
+        </div>
+
+        <div class="training-grid">
+          <!-- Item 1: Tera -->
+          <div class="training-card">
+            <div class="training-icon-box">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"></path>
+                <path d="M6 6h10"></path>
+                <path d="M6 10h10"></path>
+              </svg>
+            </div>
+            <div class="training-content">
+              <span class="training-provider">Tera</span>
+              <h3 class="training-title">Front-End Training</h3>
+            </div>
+          </div>
+
+          <!-- Item 2: NTI -->
+          <div class="training-card">
+            <div class="training-icon-box">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="m10 15 5-3-5-3v6Z"></path>
+              </svg>
+            </div>
+            <div class="training-content">
+              <span class="training-provider">NTI</span>
+              <h3 class="training-title">Machine Learning Training</h3>
+            </div>
+          </div>
+
+          <!-- Item 3: DEPI -->
+          <div class="training-card">
+            <div class="training-icon-box">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="2"></circle>
+                <ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(30 12 12)"></ellipse>
+                <ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(90 12 12)"></ellipse>
+                <ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(150 12 12)"></ellipse>
+              </svg>
+            </div>
+            <div class="training-content">
+              <span class="training-provider">DEPI</span>
+              <h3 class="training-title">React Training</h3>
+            </div>
+          </div>
+
+          <!-- Item 4: ITI -->
+          <div class="training-card">
+            <div class="training-icon-box">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="16 18 22 12 16 6"></polyline>
+                <polyline points="8 6 2 12 8 18"></polyline>
+              </svg>
+            </div>
+            <div class="training-content">
+              <span class="training-provider">ITI</span>
+              <h3 class="training-title">React Training</h3>
+            </div>
+          </div>
+
+          <!-- Item 5: Cisco - Introduction to Cybersecurity -->
+          <div class="training-card">
+            <div class="training-icon-box">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect width="18" height="11" x="3" y="11" rx="2" ry="2"></rect>
+                <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+              </svg>
+            </div>
+            <div class="training-content">
+              <span class="training-provider">Cisco</span>
+              <h3 class="training-title">Introduction to Cybersecurity</h3>
+            </div>
+          </div>
+
+          <!-- Item 6: Cisco - Networking -->
+          <div class="training-card">
+            <div class="training-icon-box">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect width="16" height="12" x="4" y="4" rx="2" ry="2"></rect>
+                <line x1="2" x2="22" y1="20" y2="20"></line>
+                <line x1="12" x2="12" y1="16" y2="20"></line>
+              </svg>
+            </div>
+            <div class="training-content">
+              <span class="training-provider">Cisco</span>
+              <h3 class="training-title">Networking</h3>
+            </div>
+          </div>
+
+          <!-- Item 7: Cisco - English for IT -->
+          <div class="training-card">
+            <div class="training-icon-box">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="2" x2="22" y1="12" y2="12"></line>
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+              </svg>
+            </div>
+            <div class="training-content">
+              <span class="training-provider">Cisco</span>
+              <h3 class="training-title">English for IT</h3>
+            </div>
+          </div>
+
+          <!-- Item 8: Problem Solving -->
+          <div class="training-card">
+            <div class="training-icon-box">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"></path>
+                <path d="M9 18h6"></path>
+                <path d="M10 22h4"></path>
+              </svg>
+            </div>
+            <div class="training-content">
+              <span class="training-provider">Skill &amp; Logic</span>
+              <h3 class="training-title">Problem Solving</h3>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         6. Projects Section
+         ========================================================================== -->
+    <section class="section section-alt" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Portfolio Projects</span>
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-description">
+            Showcasing responsive web development projects built with modern frontend standards.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: Furinto -->
+          <div class="project-card">
+            <div class="project-banner">
+              <span class="project-badge active-project">Live Project</span>
+              <div class="project-banner-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="8" cy="21" r="1"></circle>
+                  <circle cx="19" cy="21" r="1"></circle>
+                  <path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"></path>
+                </svg>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-name">Furinto</h3>
+              <p class="project-desc">
+                An e-commerce website for selling furniture.
+              </p>
+
+              <div class="project-tech-stack">
+                <span class="tech-stack-label">Technologies Used</span>
+                <div class="tech-tags">
+                  <span class="tech-tag">HTML</span>
+                  <span class="tech-tag">CSS</span>
+                  <span class="tech-tag">JavaScript</span>
+                  <span class="tech-tag">Bootstrap</span>
+                </div>
+              </div>
+
+              <div class="project-actions">
+                <a 
+                  href="https://alaaibrahim1512.github.io/furnito/login1.html" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  class="btn btn-primary btn-sm"
+                >
+                  <span>View Project</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M7 17 17 7"></path>
+                    <path d="M7 7h10v10"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2: QuickGen -->
+          <div class="project-card">
+            <div class="project-banner">
+              <span class="project-badge active-project">Live Project</span>
+              <div class="project-banner-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                  <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+                </svg>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-name">QuickGen</h3>
+              <p class="project-desc">
+                A website for learning prompt generation and programming courses.
+              </p>
+
+              <div class="project-tech-stack">
+                <span class="tech-stack-label">Technologies Used</span>
+                <div class="tech-tags">
+                  <span class="tech-tag">HTML</span>
+                  <span class="tech-tag">CSS</span>
+                  <span class="tech-tag">JavaScript</span>
+                  <span class="tech-tag">Bootstrap</span>
+                </div>
+              </div>
+
+              <div class="project-actions">
+                <a 
+                  href="https://ii3boody.github.io/QuickGen/" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  class="btn btn-primary btn-sm"
+                >
+                  <span>View Project</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M7 17 17 7"></path>
+                    <path d="M7 7h10v10"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         7. Contact Section
+         ========================================================================== -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="contact-wrapper">
+          <div class="contact-card-main">
+            <span class="section-badge">Get In Touch</span>
+            <h2 class="contact-cta-headline">Let's Work Together</h2>
+            <p class="contact-cta-sub">
+              Have a project in mind for your startup, personal brand, or company? Reach out directly and let's bring your front-end vision to life.
+            </p>
+
+            <div class="contact-channels-grid">
+              <!-- Email Channel -->
+              <div class="channel-box">
+                <div class="channel-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                    <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                  </svg>
+                </div>
+                <span class="channel-title">Email</span>
+                <a href="mailto:hajrhsnmrzwq233@gmail.com" class="channel-link">
+                  hajrhsnmrzwq233@gmail.com
+                </a>
+              </div>
+
+              <!-- LinkedIn Channel -->
+              <div class="channel-box">
+                <div class="channel-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                    <rect width="4" height="12" x="2" y="9"></rect>
+                    <circle cx="4" cy="4" r="2"></circle>
+                  </svg>
+                </div>
+                <span class="channel-title">LinkedIn</span>
+                <a href="https://www.linkedin.com/in/hagar-hassan-marzouk-front-end" target="_blank" rel="noopener noreferrer" class="channel-link">
+                  hagar-hassan-marzouk
+                  <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M7 17 17 7"></path>
+                    <path d="M7 7h10v10"></path>
+                  </svg>
+                </a>
+              </div>
+
+              <!-- GitHub Channel -->
+              <div class="channel-box">
+                <div class="channel-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+                    <path d="M9 18c-4.51 2-5-2-7-2"></path>
+                  </svg>
+                </div>
+                <span class="channel-title">GitHub</span>
+                <a href="https://github.com/hagarhasan" target="_blank" rel="noopener noreferrer" class="channel-link">
+                  github.com/hagarhasan
+                  <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M7 17 17 7"></path>
+                    <path d="M7 7h10v10"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <!-- Action buttons -->
+            <div class="contact-actions-bar">
+              <a href="mailto:hajrhsnmrzwq233@gmail.com" class="btn btn-primary">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                  <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                </svg>
+                <span>Send Email Directly</span>
+              </a>
+
+              <button type="button" class="btn btn-secondary js-copy-email" title="Copy email address to clipboard">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect width="14" height="14" x="8" y="8" rx="2" ry="2"></rect>
+                  <path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path>
+                </svg>
+                <span>Copy Email Address</span>
+              </button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       8. Footer
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-brand">Hager Hassan Marzouk</div>
+      <div class="footer-role">Front-End Developer</div>
+
+      <div class="footer-links">
+        <a href="mailto:hajrhsnmrzwq233@gmail.com" class="footer-link">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+            <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+          </svg>
+          <span>hajrhsnmrzwq233@gmail.com</span>
+        </a>
+
+        <a href="https://www.linkedin.com/in/hagar-hassan-marzouk-front-end" target="_blank" rel="noopener noreferrer" class="footer-link">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+            <rect width="4" height="12" x="2" y="9"></rect>
+            <circle cx="4" cy="4" r="2"></circle>
+          </svg>
+          <span>LinkedIn</span>
+        </a>
+
+        <a href="https://github.com/hagarhasan" target="_blank" rel="noopener noreferrer" class="footer-link">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+            <path d="M9 18c-4.51 2-5-2-7-2"></path>
+          </svg>
+          <span>GitHub</span>
+        </a>
+      </div>
+
+      <div class="footer-bottom">
+        &copy; Hager Hassan Marzouk. Front-End Developer.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification -->
+  <div class="toast-msg" id="toast-notification" role="status" aria-live="polite">
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color: #10b981;">
+      <polyline points="20 6 9 17 4 12"></polyline>
+    </svg>
+    <span>Email copied to clipboard!</span>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+</html>
